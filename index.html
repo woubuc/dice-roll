@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>Dice Roll API</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<style type="text/css">
+	* { margin:0; padding:0; outline:none; border:none; box-sizing:border-box; }
+	body { background:#ecf0f1; color:#2c3e50; font-family:sans-serif; }
+	h1, h2 { font-weight:normal; text-align:center; }
+	h1 { padding:40px; }
+	h2 { padding-top:40px; }
+	p { max-width:640px; margin:auto; padding:5px 20px; text-align:center; }
+	code { padding:2px 3px; background:white; font-family:monospace; }
+	a { color:#3498db; }
+	</style>
+
+</head>
+<body>
+	<h1>Dice Roll API</h1>
+	<p>This API generates random dice rolls for any combination of dice.</p>
+	<p>Built as a test to try out <a href="https://zeit.co/now" target="_blank">Now</a></p>
+
+	<h2>How it works</h2>
+	<p>Simply add the amount and type of dice you want to the URL.</p>
+	<p>Examples:<br />
+		<a href="/2d6">/2d6</a> will roll two 6-sided dice.<br />
+		<a href="/4d12">/4d12</a> will roll four 12-sided dice.<br />
+		<a href="/d4">/d4</a> will roll one 4-sided die.
+	</p>
+	<p>Results are returned in JSON format by default, but you can add the extension <code>.xml</code> to any roll to get an XML structure instead.</p>
+
+	<h2>Contribute</h2>
+	<p>Check out the source and contribute if you like, over on <a href="https://github.com/woubuc/dice-roll" target="_blank">Github</p>
+</body>
+</html>

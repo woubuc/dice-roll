@@ -1,0 +1,17 @@
+{
+  "name": "dice-roll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro app/index.js",
+    "dev": "nodemon --exec micro app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^7.3.3",
+    "xml": "^1.0.1"
+  }
+}
